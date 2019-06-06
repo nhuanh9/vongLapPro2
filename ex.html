@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            background: url(https://2.bp.blogspot.com/-JAGKUL4pudM/URze2G6PniI/AAAAAAAABG4/dFpojn6f3_M/s1600/anh-tran-tri-blogger-blogspot_anh-dong-nen-blog_Namkna-blogspot-com_5.gif);
+        }
+        table{
+            background: url(https://images.unsplash.com/photo-1446716336919-df838e44ce7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=445&q=80);
+        }
+    </style>
 </head>
 <body>
+<center>
 <script>
     let sout;
-    sout = "<table border='1' width='800' cellspacing='0' cellpadding='3'>"
+    sout = "<table border='1' width='800' cellspacing='0' cellpadding='3' style='margin-top: 100px'>"
+    sout = sout + "<tr>";
+    sout = sout + "<td colspan='9' height='15px;' style='text-align: center'>Bảng cửu chương </td>";
+    sout = sout + "<tr>";
     for (i = 2; i <= 9; i++) {
         sout = sout + "<tr>";
         for (j = 1; j <= 9; j++) {
@@ -18,5 +30,6 @@
     sout = sout + "</table>";
     document.write(sout);
 </script>
+</center>
 </body>
 </html>
